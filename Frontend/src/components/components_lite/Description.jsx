@@ -92,7 +92,7 @@ const Description = () => {
                 {singleJob?.position} Open Positions
               </Badge>
               <Badge className={" text-[#FA4F09] font-bold"} variant={"ghost"}>
-                {singleJob?.salary}LPA
+                ₹{singleJob?.salary}
               </Badge>
               <Badge className={" text-[#6B3AC2]  font-bold"} variant={"ghost"}>
                 {singleJob?.location}

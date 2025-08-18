@@ -7,8 +7,8 @@ const TermsOfService = () => {
 
       <h2>1. Introduction</h2>
       <p>
-        Welcome to [Your Website Name]. These Terms and Conditions govern your
-        use of our website located at [Your Website URL]. By accessing or using
+        Welcome to Job Portal. These Terms and Conditions govern your
+        use of our website located at https://job-portal-jp6z.onrender.com/. By accessing or using
         our website, you agree to comply with these terms.
       </p>
 
@@ -37,30 +37,22 @@ const TermsOfService = () => {
       <h2>5. Intellectual Property</h2>
       <p>
         All content, trademarks, and other intellectual property on the website
-        are owned by or licensed to [Your Website Name]. You may not reproduce,
+        are owned by or licensed to Job Portal. You may not reproduce,
         distribute, or create derivative works from any content without our
         express written permission.
       </p>
 
       <h2>6. Limitation of Liability</h2>
       <p>
-        To the fullest extent permitted by law, [Your Website Name] shall not be
+        To the fullest extent permitted by law,Job Portal shall not be
         liable for any direct, indirect, incidental, special, consequential, or
         punitive damages arising from your use of the website.
-      </p>
-
-      <h2>7. Governing Law</h2>
-      <p>
-        These Terms and Conditions shall be governed by and construed in
-        accordance with the laws of [Your Jurisdiction]. Any disputes arising in
-        connection with these terms shall be subject to the exclusive
-        jurisdiction of the courts of [Your Jurisdiction].
       </p>
 
       <h2>8. Contact Information</h2>
       <p>
         If you have any questions about these Terms and Conditions, please
-        contact us at [Your Contact Information].
+        contact us at sharmang45@gmail.com.
       </p>
     </div>
   );

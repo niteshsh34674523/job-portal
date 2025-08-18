@@ -22,15 +22,6 @@ const PrivacyPolicy = () => {
             <li>Resume/CV</li>
           </ul>
         </li>
-        <li>
-          <strong>Usage Data:</strong>
-          <ul>
-            <li>IP address</li>
-            <li>Browser type</li>
-            <li>Pages visited</li>
-            <li>Time spent on pages</li>
-          </ul>
-        </li>
       </ul>
 
       <h2>3. How We Use Your Information</h2>
@@ -81,7 +72,7 @@ const PrivacyPolicy = () => {
       <h2>8. Contact Us</h2>
       <p>
         If you have any questions about this Privacy Policy, please contact us
-        at [your email address].
+        at sharmang45@gmail.com.
       </p>
     </div>
   );

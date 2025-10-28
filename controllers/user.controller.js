@@ -192,11 +192,20 @@ export const updateProfile = async (req, res) => {
     if (skills) user.profile.skills = skills.split(",");
 
     if (file) {
-      const fileUri = getDataUri(file);
-      const cloudResponse = await cloudinary.uploader.upload(fileUri.content);
-      user.profile.resume = cloudResponse.secure_url;
-      user.profile.resumeOriginalName = file.originalname;
-    }
+  const fileUri = getDataUri(file);
+
+  // 🟦 Detect if file is PDF and upload properly
+  const isPDF = file.mimetype === "application/pdf";
+
+  const cloudResponse = await cloudinary.uploader.upload(fileUri.content, {
+    resource_type: isPDF ? "raw" : "image", // ✅ KEY FIX
+    folder: "uploads",
+  });
+
+  user.profile.resume = cloudResponse.secure_url;
+  user.profile.resumeOriginalName = file.originalname;
+}
+
 
     await user.save();
 
